@@ -1,12 +1,12 @@
 import './App.css';
-import ColorsItem from './ColorsList';
+import ColorsList from './ColorsList';
 import { colors } from './colors.js';
 // import your arrays here
 
 function App() {
   return (
     <div className="App">
-      <ColorsItem colors={ colors } />
+      <ColorsList colors={colors} />
     </div>
   );
 }

@@ -1,9 +1,5 @@
-import ColorsItem from './ColorsList';
-
-export default function ColorsList({ colors }) {
+export default function ColorsItem({ color }) {
   return <div>
-    {
-      colors.map((color, i) => <ColorsItem color={ color } key={color + i} />)
-    }
+    {color}
   </div>;
 }
