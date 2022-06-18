@@ -16,6 +16,7 @@ import { recipes } from './recipes.js';
 function App() {
   return (
     <div className="App">
+      Test of Lists
       <ColorsList colors={colors} />
       <GamesList games={games} />
       <ClassList classroom={classroom} />
