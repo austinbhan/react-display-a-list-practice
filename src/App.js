@@ -1,11 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import ColorsList from './ColorsList';
+import { colors } from './colors.js';
+
+import GamesList from './GamesList';
+import { games } from './games-array';
+
+import ClassList from './ClassList';
+import { classroom } from './classroom.js';
+
+import RecipesList from './RecipesList';
+import { recipes } from './recipes.js';
+
 // import your arrays here
 
 function App() {
   return (
     <div className="App">
-        Render all your lists here. Pass the arrays as props.
+      Test of Lists
+      <ColorsList colors={colors} />
+      <GamesList games={games} />
+      <ClassList classroom={classroom} />
+      <RecipesList recipes={recipes}/>
     </div>
   );
 }
